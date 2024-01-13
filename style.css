@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Cabin;
+    src: url("a_Cabin.ttf");
+}
+@font-face {
+    font-family: Alkatra;
+    src: url("a_Alkatra.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0.4rem;
+    text-align:center;
+    background-color: #8D99AE;
+}
+h1{
+    padding:0.1rem;
+    background-color:#6e86b1;
+    font-size:4.5rem;
+    border-radius:1.4rem;
+    margin-bottom: 1rem;
+    color : #2B2D42;
+    font-family : Cabin;
+}
+p{
+    font-size:1.8rem;
+    color : #2B2D42;
+    font-family : Alkatra;
+}
+.choice{
+    font-size : 2.5rem;
+}
+.main-layout{
+    height:60vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.btn{
+    background-color: #8D99AE;
+    height:50vh;
+    width:50vh;
+    border-radius:50%;
+    border:NONE;
+}
+.btn:hover{
+    box-shadow : 10px 10px 16px rgba(0, 0, 0,2);
+    cursor:pointer;
+    border:7px solid;
+    height:55vh;
+    width:55vh;
+}
+.btn:active{
+    height:58vh;
+    width:58vh;
+}
+#rock{
+    background-image:url("a_rock.png");
+    background-size:cover;
+}
+#paper{
+    background-image:url("a_paper.png");
+    background-size:cover;
+}
+#scissor{
+    background-image:url("a_scissor.png");
+    background-size:cover;
+}
+.result{
+    display : flex;
+    justify-content : center;
+}
+#result{
+    margin-top : 1rem;
+    color : white;
+    width:30%;
+    border-radius : 20px;
+}
+.hide{
+    display:none;
+}
+.score{
+    color : #2B2D42;
+    font-size: 2.5rem;
+    display : flex;
+    justify-content : space-evenly;
+}
+.textScore{
+    font-size: 2.5rem;
+    display : flex;
+    justify-content : space-evenly;
+    color : #2B2D42;
+}
+.lower-part{
+    height : 8.3 vh;
+    padding: 1rem;
+}
+.reset{
+    background-color : #2B2D42;
+    color : white;
+    height : 40px;
+    width : 70px;
+    border-radius : 6px;
+    border:none;
+    font-size : 1.5rem;
+}
+.reset:hover{
+    cursor:pointer;
+    color : #2B2D42;
+    background-color : white;
+}
+
